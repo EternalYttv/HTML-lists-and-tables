@@ -1,21 +1,26 @@
 h1{
     color:brown;
+    border: 5px solid teal;
+    border-radius: 20px;
 }
 h2{
     color: blue;
+    border: 3px dotted teal;
 }
 b{
     color: blueviolet;
 }
-ul{
+ul,ol{
     color: aquamarine;
 }
-ol{
-    color: aquamarine;
-}
+
 p{
     color: cadetblue;
 }
 body{
     background: grey;
+}
+table, th, tr, td{
+    border: 8px outset black;
+    border-radius: 10px;
 }
